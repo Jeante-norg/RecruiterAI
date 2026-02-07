@@ -1,16 +1,35 @@
-# React + Vite
+# RecruiterAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, modern SaaS landing page for an AI-driven recruitment platform. This project features a custom **"Cyber-Flip"** theme engine that seamlessly toggles between a vibrant Lavender-Light mode and a sleek Midnight-Dark mode.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cyber-Flip Theme Engine**: A bespoke implementation that swaps the entire color palette (Purple `#B197FC` ↔ Black `#000000`) with smooth 500ms transitions.
+- **Automated Workflow Flowcharts**: Interactive, high-contrast decision trees showing Screening, Interviewing, and Offer stages with custom logic paths.
+- **Logo Ticker / Slider**: An infinite-scroll social proof section showcasing top companies using the platform.
+- **Impact Metrics Dashboard**: Data-driven grid highlighting key performance indicators like 70% faster time-to-hire.
+- **Glassmorphic UI**: Modern design aesthetic using background blurs, thin borders, and translucent layers.
+- **Fully Responsive**: Hand-crafted Tailwind layouts that scale perfectly from mobile devices to large desktops.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: [React.js](https://reactjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animations**: CSS Transitions & Tailwind variants
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+│   ├── Hero.jsx            # High-impact value proposition & primary CTA
+│   ├── LogoSlider.jsx      # Infinite-scroll social proof (New)
+│   ├── Flowcharts.jsx      # Decision-tree workflow visualization (The Core)
+│   ├── ImpactMetrics.jsx   # Data-driven performance statistics
+│   ├── Testimonials.jsx    # High-contrast social proof cards
+│   ├── FAQ.jsx             # Glassmorphic accordion for common queries
+│   └── FinalCTA.jsx        # Conversion-focused closing section
+├── App.jsx                 # Theme state management & component assembly
+└── index.css               # Tailwind directives & custom brand colors
+```
