@@ -11,14 +11,14 @@ A high-performance, modern SaaS landing page for an AI-driven recruitment platfo
 - **Glassmorphic UI**: Modern design aesthetic using background blurs, thin borders, and translucent layers.
 - **Fully Responsive**: Hand-crafted Tailwind layouts that scale perfectly from mobile devices to large desktops.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [React.js](https://reactjs.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Icons**: [Lucide React](https://lucide.dev/)
 - **Animations**: CSS Transitions & Tailwind variants
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 src/
